@@ -43,6 +43,14 @@ nav ul li{
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: tomato;
+    transition: all 0.5s;
 }
 nav ul li a{
     text-decoration: none;
@@ -111,6 +119,13 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+
+
+
+
+
+
+
 /* responsive media querey */
 /* mobile devices */
 @media screen and (max-width: 576px){
