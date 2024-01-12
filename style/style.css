@@ -266,7 +266,11 @@ footer p{
         padding-left: 20px;
     }
     nav ul li{
-        padding: 3px;
+        margin-right: 15px;
+        font-size: 1rem;
+        background-color: #FF900E;
+        padding: 10px;
+        border-radius: 5px;
     }
     .facts-card-contianer{
         gap: 15px;
