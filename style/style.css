@@ -171,6 +171,24 @@ main{
     width: 165px;
 }
 
+/* footer section */
+footer{
+    max-width: 1440px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 130px auto;
+    border-radius: 8px;
+}
+footer p{
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px;
+}
 
 /* responsive media querey */
 /* mobile devices */
