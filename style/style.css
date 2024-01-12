@@ -4,7 +4,9 @@
 *{
     font-family: Work Sans;
 }
-
+.text-light-gray{
+    color: #727272;
+}
 .btn-primary{
     color: #FFF;
     text-align: center;
@@ -85,7 +87,7 @@ nav ul li a{
 /* main style */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* teams style */
@@ -132,9 +134,13 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 
@@ -144,7 +150,7 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
 }
