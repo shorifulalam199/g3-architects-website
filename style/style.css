@@ -145,7 +145,7 @@ main{
     padding-left: 20px;
     }
     nav ul li{
-        padding: 5px 5px;
+        padding: 3px;
     }
     }
 
@@ -160,6 +160,7 @@ main{
     nav, .teams-container{
         flex-direction: column;
     }
+
 }
 
 
