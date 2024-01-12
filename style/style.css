@@ -266,10 +266,10 @@ footer p{
         padding-left: 20px;
     }
     nav ul li{
-        margin-right: 15px;
+        margin-right: 25px;
         font-size: 1rem;
         background-color: #FF900E;
-        padding: 10px;
+        padding: 5px;
         border-radius: 5px;
     }
     .facts-card-contianer{
@@ -282,7 +282,8 @@ footer p{
     }
     .ten-year-batch{
         position: static;
-        max-width: 300px;
+        width: 155px;
+        padding: 23px;
     }
 
 
