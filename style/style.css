@@ -37,6 +37,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .nav-title {
@@ -46,6 +47,7 @@ nav{
 }
 nav ul {
     display: flex;
+
 }
 nav ul li{
     list-style: none;
@@ -77,7 +79,7 @@ nav ul li a{
 }
 .banner-title{
     color: var(--Dark-01, #131313);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
 }
 .banner-descriptionn{
@@ -218,11 +220,11 @@ main{
 
 /* footer section */
 footer{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     border-radius: 8px;
     background: #FFF4E7;
     margin: 130px auto;
-    border-radius: 8px;
+    margin-bottom: 0px;
 }
 footer p{
     color: var(--Dark-02, #424242);
@@ -269,7 +271,7 @@ footer p{
         margin-right: 25px;
         font-size: 1rem;
         background-color: #FF900E;
-        padding: 5px;
+        padding: 3px;
         border-radius: 5px;
     }
     .facts-card-contianer{
@@ -285,7 +287,10 @@ footer p{
         width: 155px;
         padding: 23px;
     }
-
+    .sponsors-img-container img{
+        width: 120px;
+        padding: 10px;
+    }
 
 }
 
